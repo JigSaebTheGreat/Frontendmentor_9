@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      #body {
+        font-family: "Karla", sans-serif;
+        background-color: hsl(204, 43%, 93%);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      #top-box {
+        background-color: hsl(0, 0%, 100%);
+        flex-basis: 48rem;
+        padding-bottom: 4.5rem;
+        border-top-left-radius: 0.625rem;
+        border-top-right-radius: 0.625rem;
+      }
+      #title {
+        color: hsl(179, 62%, 43%);
+        margin-left: 4.5rem;
+      }
+      #subtitle1 {
+        color: hsl(71, 73%, 54%);
+        margin-left: 4.5rem;
+      }
+      #para1 {
+        color: hsl(218, 22%, 67%);
+        margin-left: 4.5rem;
+      }
+      #left-box {
+        background-color: hsl(179, 62%, 43%);
+        padding: 3rem;
+        flex-basis: 18rem;
+        border-bottom-left-radius: 0.625rem;
+      }
+      #subtitle2 {
+        color: hsl(0, 0%, 100%);
+      }
+      #cost {
+        color: hsl(0, 0%, 100%);
+        font-size: 2rem;
+        display: inline-block;
+        margin: 0;
+        font-weight: 700;
+      }
+      #subscription {
+        color: hsla(0, 0%, 100%, 0.5);
+        display: inline-block;
+        margin: 0 0 0 0.5rem;
+      }
+      #para2 {
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 4rem;
+      }
+      #btn {
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(71, 73%, 54%);
+        padding: 1rem 5.5rem;
+        border-radius: 0.625rem;
+        font-weight: 700;
+      }
+      #right-box {
+        background-color: hsla(179, 62%, 43%, 0.75);
+        padding: 3rem;
+        flex-basis: 18rem;
+        border-bottom-right-radius: 0.625rem;
+      }
+      #subtitle3 {
+        color: hsl(0, 0%, 100%);
+      }
+      #para3 {
+        color: hsl(0, 0%, 100%);
+      }
+      #footer {
+        flex-basis: 100%;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <div id="top-box">
+      <h1 id="title">Join our community</h1>
+      <h2 id="subtitle1">30-day, hassle-free money back guarantee</h2>
+      <p id="para1">
+        Gain access to our full library of tutorials along with expert code
+        reviews. <br />
+        Perfect for any developers who are serious about honing their skills.
+      </p>
+    </div>
+    <div id="left-box">
+      <h2 id="subtitle2">Monthly Subscription</h2>
+      <p id="cost">&dollar;29</p>
+      <p id="subscription">per month</p>
+      <p id="para2">Full access for less than &dollar;1 a day</p>
+      <a id="btn" href="">Sign Up</a>
+    </div>
+    <div id="right-box">
+      <h2 id="subtitle3">Why Us</h2>
+      <p id="para3">
+        Tutorials by industry experts <br />
+        Peer &amp; expert code review <br />
+        Coding exercises <br />
+        Access to our GitHub repos <br />
+        Community forum <br />
+        Flashcard decks <br />
+        New videos every week
+      </p>
+    </div>
+
+    <footer id="footer">
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">JigSaeb5655</a>.
+      </p>
+    </footer>
+  </body>
+</html>
